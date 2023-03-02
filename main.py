@@ -1,6 +1,7 @@
 import requests
 import random
 import os
+from tqdm import tqdm
 from datetime import datetime
 
 
@@ -38,7 +39,7 @@ def download(url):
         r.raise_for_status()
     
         with open(local_filename, 'wb') as f:
-            for chunk in r.iter_content(chunk_size=8192): 
+            for chunk in tqdm(r.iter_content(chunk_size=8192)): 
                 f.write(chunk)
     
                 return local_filename
