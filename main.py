@@ -48,8 +48,11 @@ def main():
         file_name = download(url)
         delete(file_name)
     except Exception as e:
-        with open('logs.txt', 'w+') as f:
+        with open('err.log', 'w+') as f:
             f.write(f'{str(e)} {datetime.now()}\n')
+    else:
+        with(open('done.log', 'w+')) as f:
+            f.write(f'done {datetime.now()}\n')
 
 if __name__ == "__main__":
     main()
