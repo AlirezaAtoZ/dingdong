@@ -1,3 +1,8 @@
 http://mirror.archlinux.ikoula.com/iso/2023.03.01/archlinux-2023.03.01-x86_64.iso
 http://ftp.agdsn.de/pub/mirrors/archlinux/iso/2023.03.01/archlinux-2023.03.01-x86_64.iso
 http://ftp.cc.uoc.gr/mirrors/linux/archlinux/iso/2023.03.01/archlinux-2023.03.01-x86_64.iso
+https://ftp.halifax.rwth-aachen.de/ubuntu-releases/22.04.2/ubuntu-22.04.2-desktop-amd64.iso
+https://ftp.tu-chemnitz.de/pub/linux/ubuntu-releases/jammy/ubuntu-22.04.2-desktop-amd64.iso
+http://nl.releases.ubuntu.com/releases/22.04.2/ubuntu-22.04.2-desktop-amd64.iso
+https://mirror.mika.moe/files/Win11_English_x64.iso
+https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
